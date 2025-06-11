@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+.screen {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.sets-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.piece-set {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.piece-set h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.piece-set ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.piece-set li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.player-bet {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+#player1-bet {
+    border-left-color: #e74c3c; /* Red for player 1 */
+}
+
+#player2-bet {
+    border-left-color: #2ecc71; /* Green for player 2 */
+}
+
+.set-btn {
+    margin: 5px;
+}
+
+#final-results {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f8f5;
+    border-radius: 5px;
+    border: 1px solid #2ecc71;
+}
