@@ -505,9 +505,14 @@
         // Available piece sets with their values
         const PIECE_SETS = [
             { pieces: ["Pawn"], value: 1.5 },
+            { pieces: ["Pawn"], value: 1.5 },
+            { pieces: ["Bishop"], value: 3 },
             { pieces: ["Bishop"], value: 3 },
             { pieces: ["Knight"], value: 4 },
+            { pieces: ["Knight"], value: 4 },
             { pieces: ["Rook"], value: 5 },
+             pieces: ["Rook"], value: 5 },
+            { pieces: ["Queen"], value: 8.5 },
             { pieces: ["Queen"], value: 8.5 },
             { pieces: ["Pawn", "Pawn"], value: 3 },
             { pieces: ["Pawn", "Bishop"], value: 4.5 },
